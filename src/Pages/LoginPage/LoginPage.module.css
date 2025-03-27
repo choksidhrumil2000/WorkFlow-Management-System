@@ -1,0 +1,98 @@
+.bg_img{
+    background: linear-gradient(45deg,rgba(33, 33, 33, 0.8392),rgba(66, 66, 66, 0.2392)),
+                url('../../Assets/Images/LoginPageImages/bg-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.div_main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+.div_heading_and_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.future_text{
+    font-family: Zen Kaku Gothic Antique;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 46.87px;
+    letter-spacing: 0px;
+    vertical-align: bottom;
+    color: rgba(255, 255, 255, 1);
+    
+}
+.para_text{
+    font-family: Zen Kaku Gothic Antique;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.16px;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+.div_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:50px;
+    width: 30%;
+}
+h1,p{
+    margin: 0px;
+}
+.login_div{
+    width: 40%;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+.login_section{
+    background: rgba(250, 250, 250, 1);
+    border-radius: 24px 24px 0px 0px;
+    padding: 24px;
+    width: 100%;
+    /* max-height: 97vh; */
+    margin-bottom: 0px;
+    margin-top: 100px;
+
+}
+.login_form_section{
+    margin-top: 24px;
+}
+.placeholder_text::placeholder{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(189, 189, 189, 1);
+}
+.login_with{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 22.53px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+text-transform: initial;
+color: rgba(97, 97, 97, 1);
+}
+.spanItem{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 12.8px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+}
