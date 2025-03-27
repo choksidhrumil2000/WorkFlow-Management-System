@@ -19,7 +19,7 @@
     align-items: flex-start;
 }
 .future_text{
-    font-family: Zen Kaku Gothic Antique;
+    font-family: 'Zen Kaku Gothic Antique';
     font-weight: 700;
     font-size: 39.06px;
     line-height: 46.87px;
@@ -29,7 +29,7 @@
     
 }
 .para_text{
-    font-family: Zen Kaku Gothic Antique;
+    font-family: 'Zen Kaku Gothic Antique';
     font-weight: 400;
     font-size: 16px;
     line-height: 28.16px;
@@ -60,7 +60,6 @@ h1,p{
     border-radius: 24px 24px 0px 0px;
     padding: 24px;
     width: 100%;
-    /* max-height: 97vh; */
     margin-bottom: 0px;
     margin-top: 100px;
 
@@ -78,7 +77,7 @@ h1,p{
     color: rgba(189, 189, 189, 1);
 }
 .login_with{
-    font-family: Poppins;
+    font-family: 'Poppins';
 font-weight: 400;
 font-size: 12.8px;
 line-height: 22.53px;
@@ -89,7 +88,7 @@ text-transform: initial;
 color: rgba(97, 97, 97, 1);
 }
 .spanItem{
-    font-family: Poppins;
+    font-family: 'Poppins';
 font-weight: 700;
 font-size: 12.8px;
 line-height: 100%;

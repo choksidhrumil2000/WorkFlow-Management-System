@@ -1,8 +1,8 @@
 import styles from "./LoginPage.module.css";
 import img from "../../Assets/Images/LoginPageImages/logo_highbridge.png";
-import Stack from "@mui/material/Stack";
 import {
   Box,
+  Stack,
   Button,
   Checkbox,
   FormControlLabel,
@@ -10,9 +10,11 @@ import {
   Typography,
 } from "@mui/material";
 import "@fontsource/poppins";
-import GoogleIcon from "@mui/icons-material/Google";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import AppleIcon from "@mui/icons-material/Apple";
+import "@fontsource/zen-kaku-gothic-antique";
+import GoogleIcon from '@mui/icons-material/Google';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import AppleIcon from '@mui/icons-material/Apple';
+
 import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
@@ -85,6 +87,7 @@ export default function LoginPage() {
                   id="outlined-adornment-email"
                   placeholder="Type Here...."
                   className={`${styles.placeholder_text}`}
+                  disabled
                 />
 
                 <Typography
@@ -104,6 +107,7 @@ export default function LoginPage() {
                   id="outlined-adornment-password"
                   placeholder="Type Here...."
                   className={`${styles.placeholder_text}`}
+                  disabled
                 />
                 <Stack
                   direction={"row"}
@@ -154,10 +158,18 @@ export default function LoginPage() {
                     color: "white",
                     marginTop: "20px",
                     height: "56px",
+                    fontFamily: 'Poppins',
+                    fontWeight: '700',
+                    fontSize: '16px',
+                    lineHeight: '150%',
+                    letterSpacing: '0px',
+                    textAlign: 'center',
+                    verticalAlign: 'middle',
+                    textTransform:'initial',
                   }}
                   onClick={NavigateToWorkFlowList}
                 >
-                  Login
+                  Log In
                 </Button>
               </Stack>
             </Stack>
@@ -209,6 +221,7 @@ export default function LoginPage() {
                   display: "flex",
                   justifyContent: "space-around",
                   alignItems: "center",
+                  color:"rgba(238, 52, 37, 1)",
                 }}
               >
                 <GoogleIcon />{" "}
@@ -224,6 +237,7 @@ export default function LoginPage() {
                   display: "flex",
                   justifyContent: "space-around",
                   alignItems: "center",
+                  color:"rgba(238, 52, 37, 1)"
                 }}
               >
                 <FacebookIcon />{" "}
@@ -239,6 +253,7 @@ export default function LoginPage() {
                   display: "flex",
                   justifyContent: "space-around",
                   alignItems: "center",
+                  color:"rgba(238, 52, 37, 1)"
                 }}
               >
                 <AppleIcon />{" "}
@@ -250,7 +265,7 @@ export default function LoginPage() {
             </Stack>
             <Typography
               className={styles.spanItem}
-              sx={{ fontWeight: "400", marginTop: "40px" }}
+              sx={{ fontWeight: "400", marginTop: "40px",marginBottom:'71px' }}
             >
               New User?{" "}
               <span
