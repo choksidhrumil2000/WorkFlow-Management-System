@@ -1,0 +1,37 @@
+.head_cells{
+    font-family: 'Poppins' !important;
+font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 150% !important;
+letter-spacing: 0% !important;
+color: rgba(0, 0, 0, 1) !important;
+border-bottom:1px solid orange !important;
+}
+.row_cells{
+    font-family: 'Poppins' !important;
+font-weight: 500 !important;
+font-size: 14px !important;
+line-height: 18px !important;
+letter-spacing: 0% !important;
+color: rgb(129, 113, 113) !important;
+}
+.table_button{
+    font-family: 'Poppins' !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 150% !important;
+letter-spacing: 0% !important;
+text-align: center !important;
+vertical-align: middle !important;
+text-transform: capitalize !important;
+border: 1px solid rgba(224, 224, 224, 1) !important;
+color: rgba(34, 31, 32, 1) !important;
+}
+.pinNormal:hover{
+    content: url('../../Assets/Images/WorkFlowListPageImages/YellowPin.png');
+    cursor: pointer;
+}
+.pinYellow:hover{
+    content: url('../../Assets/Images/WorkFlowListPageImages/NormalPin.png');
+    cursor: pointer;
+}

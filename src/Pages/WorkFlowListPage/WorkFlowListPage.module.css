@@ -1,0 +1,28 @@
+.menu:hover{
+    content: url('../../Assets/Images/WorkFlowListPageImages/Redmenu.png');
+}
+.menu{
+    width: 36px;
+    height:36px;
+}
+.heading{
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 100% !important;
+    letter-spacing: 0% !important;
+}
+.newProcessButton{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 1);
+border-radius: 6px;
+background: rgba(34, 31, 32, 1);
+height:32px;
+}
