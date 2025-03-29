@@ -9,8 +9,12 @@ import SearchIcon from "@mui/icons-material/Search";
 import normalmenuimg from "../../Assets/Images/WorkFlowListPageImages/NormalMenu.png";
 import WorkFlowList from "../../Components/WorkFlowList/WorkFlowList";
 import { useEffect, useState } from "react";
+import {useNavigate} from 'react-router-dom';
 
 export default function WorkFlowListPage() {
+
+  const navigate = useNavigate();
+
     const [data,setData] = useState([]);
 
     useEffect(()=>{
@@ -59,6 +63,10 @@ export default function WorkFlowListPage() {
         setData(obj);
     },[]);
 
+    const handleClick = ()=>{
+      navigate('/workflowdesign');
+    }
+
   return (
     <div>
       {/* MainLayout */}
@@ -104,7 +112,7 @@ export default function WorkFlowListPage() {
                 ),
               }}
             />
-            <button className={styles.newProcessButton}>+ Create New Process</button>
+            <button className={styles.newProcessButton} onClick={handleClick}>+ Create New Process</button>
           </Stack>
           <WorkFlowList rows={data} />
         </Box>

@@ -1,0 +1,22 @@
+.nodeStack{
+    min-width: 300px;
+height: 64px;
+border-width: 1px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+border: 1px solid rgba(132, 158, 76, 1);
+padding: '24px';
+
+}
+.nodeStack:hover{
+    background: rgba(247, 250, 239, 1);
+}
+.config{
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 150% !important;
+    letter-spacing: 0% !important;
+    text-align: center !important;
+    color: rgba(238, 52, 37, 1) !important;
+}

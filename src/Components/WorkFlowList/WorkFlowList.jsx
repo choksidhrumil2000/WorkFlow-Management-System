@@ -48,9 +48,9 @@ export default function WorkFlowList(props) {
             </TableRow>
           </TableHead>
           <TableBody>
-            {props.rows.map((row) => (
+            {props.rows.map((row) => 
               <Row key={row.id} row={row} />
-            ))}
+            )}
           </TableBody>
         </Table>
       </TableContainer>
@@ -132,7 +132,9 @@ function Row(props) {
       <TableRow>
         <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
           <Collapse in={open} timeout="auto" unmountOnExit>
-            <Box sx={{ margin: 1 }}></Box>
+            <Box sx={{ margin: 1 }}>
+              
+            </Box>
           </Collapse>
         </TableCell>
       </TableRow>
