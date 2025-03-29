@@ -35,3 +35,24 @@ color: rgba(34, 31, 32, 1) !important;
     content: url('../../Assets/Images/WorkFlowListPageImages/NormalPin.png');
     cursor: pointer;
 }
+.question_text{
+    font-family: Poppins !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 20px !important;
+letter-spacing: 2% !important;
+vertical-align: middle !important;
+text-transform: capitalize !important;
+color: rgba(51, 51, 51, 1) !important;
+}
+.undo_text{
+    font-family: Poppins !important;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 20px !important;
+letter-spacing: 2% !important;
+vertical-align: middle !important;
+text-transform: capitalize !important;
+color: rgba(238, 52, 37, 1) !important;
+
+}

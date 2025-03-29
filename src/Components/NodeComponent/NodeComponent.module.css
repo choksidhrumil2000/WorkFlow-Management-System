@@ -6,6 +6,7 @@ border-radius: 8px;
 background: rgba(255, 255, 255, 1);
 border: 1px solid rgba(132, 158, 76, 1);
 padding: '24px';
+cursor: pointer;
 
 }
 .nodeStack:hover{
@@ -19,4 +20,8 @@ padding: '24px';
     letter-spacing: 0% !important;
     text-align: center !important;
     color: rgba(238, 52, 37, 1) !important;
+}
+.config:hover{
+    background: rgba(253, 235, 233, 1) !important;
+
 }
